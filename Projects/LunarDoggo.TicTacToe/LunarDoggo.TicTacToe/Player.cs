@@ -1,4 +1,4 @@
-﻿namespace TicTacToe
+﻿namespace LunarDoggo.TicTacToe
 {
     /// <summary>
     /// Representation of a player
@@ -11,7 +11,7 @@
             this.Id = id;
         }
 
-        //For tic tac toe this is usually set to either "X" or "O" 
+        //For tic tac toe this is usually set to either "X" or "O"
         /// <summary>
         /// Display name of the player
         /// </summary>

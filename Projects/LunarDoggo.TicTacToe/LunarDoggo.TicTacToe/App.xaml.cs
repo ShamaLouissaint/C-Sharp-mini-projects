@@ -1,4 +1,17 @@
-﻿using System.Windows;
+﻿using System.Configuration;
+using System.Data;
+using System.Windows;
+
+namespace LunarDoggo.TicTacToe;
+
+/// <summary>
+/// Interaction logic for App.xaml
+/// </summary>
+public partial class App : Application
+{
+}
+/*
+using System.Windows;
 
 namespace TicTacToe
 {
@@ -10,3 +23,4 @@ namespace TicTacToe
         //In this class you could override multiple methods to customize your application
     }
 }
+*/

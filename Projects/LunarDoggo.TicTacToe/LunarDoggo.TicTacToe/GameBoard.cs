@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TicTacToe
+namespace LunarDoggo.TicTacToe
 {
     /// <summary>
     /// Represents a <see cref="GameBoard"/> consisting of 9 tiles separated into three rows and columns

@@ -1,9 +1,9 @@
-﻿using System.Windows.Controls;
+using System.Windows.Controls;
 using System.Windows;
 using System.Linq;
 using System;
 
-namespace TicTacToe
+namespace LunarDoggo.TicTacToe
 {
     /// <summary>
     /// Interactionlogic for MainWindow.xaml
@@ -56,7 +56,7 @@ namespace TicTacToe
         /// <summary>
         /// Handles the <see cref="GameState.PlayerOccupiedTile"/> event and displays a message that the user can't occupy the clicked tile
         /// </summary>
-        private void OnTileAlreadyOccupied(object sender, EventArgs e)
+        private void OnTileAlreadyOccupied(object? sender, EventArgs e)
         {
             //This shows a default windows messagebox, you have to provide at least the first parameter
             //Parameter 1 (required): displayed message
@@ -71,7 +71,7 @@ namespace TicTacToe
         /// Handles the <see cref="GameState.GameOverDraw"/> event and displays that no player has won. Afterwards the players are asked, if
         /// they want to play again
         /// </summary>
-        private void OnGameOverDraw(object sender, EventArgs e)
+        private void OnGameOverDraw(object? sender, EventArgs e)
         {
             MessageBoxResult result = MessageBox.Show("The game ended in a draw. Do you want to play again?", "GameOver", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.Yes);
             this.ProcessGameOverPlayerChoice(result);
@@ -81,7 +81,7 @@ namespace TicTacToe
         /// Handles the <see cref="GameState.GameOverPlayerWon"/> event and displays that the player specified in
         /// <see cref="PlayerEventArgs.Player"/> has won. Afterwards the players are asked, if they want to play again
         /// </summary>
-        private void OnPlayerWon(object sender, PlayerEventArgs e)
+        private void OnPlayerWon(object? sender, PlayerEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show($"Player {e.Player.Id} won the game. Do you want to play again?", "GameOver", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.Yes);
             this.ProcessGameOverPlayerChoice(result);
@@ -111,7 +111,7 @@ namespace TicTacToe
         /// <summary>
         /// Handled the <see cref="GameState.TilesReset"/> event and resets the buttons to their blank starting state
         /// </summary>
-        private void OnTilesReset(object sender, EventArgs e)
+        private void OnTilesReset(object? sender, EventArgs e)
         {
             foreach (ButtonTileMapping mapping in this.buttonTileMappings)
             {
@@ -122,7 +122,7 @@ namespace TicTacToe
         /// <summary>
         /// Handles the click event of the buttons of the window
         /// </summary>
-        private void OnButtonClicked(object sender, RoutedEventArgs e)
+        private void OnButtonClicked(object? sender, RoutedEventArgs e)
         {
             //Here we use a "Type pattern" (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is#type-pattern)
             //(sender is Button) checks if the variable "sender" is of type Button

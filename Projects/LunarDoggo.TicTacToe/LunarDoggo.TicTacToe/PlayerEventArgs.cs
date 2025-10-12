@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TicTacToe
+namespace LunarDoggo.TicTacToe
 {
     /// <summary>
     /// This class is used for raising events regarding a player

@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace LunarDoggo.Datastructures.Graphs
 {
     public interface IGraph<T>

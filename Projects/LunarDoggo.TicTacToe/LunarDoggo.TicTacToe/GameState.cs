@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System;
 
-namespace TicTacToe
+namespace LunarDoggo.TicTacToe
 {
     /// <summary>
     /// Represents the current state of the game
@@ -50,7 +50,7 @@ namespace TicTacToe
         /// <summary>
         /// Handles <see cref="GameBoard.PlayerOccupiedTile"/>
         /// </summary>
-        private void OnPlayerOccupiedTile(object sender, PlayerTileEventArgs e)
+        private void OnPlayerOccupiedTile(object? sender, PlayerTileEventArgs e)
         {
             //We just set the Content-display of the button of the tile to the current players displayname
             this.buttonTileMappings.Single(_mapping => _mapping.TileX == e.TileX && _mapping.TileY == e.TileY).Button.Content = e.Player.Display;
@@ -81,13 +81,13 @@ namespace TicTacToe
                     //Events could be raised by (in this case) calling this.GameOverPlayerWon(this, new PlayerEventArgs(this.currentPlayer))
                     //But if there aren't any handlers subscribed to it, this will lead to a NullReferenceException
                     //To prevent this, use the null-conditional-operator with a call to the Invoke-Method for the event
-                    //this is equivalent to: 
+                    //this is equivalent to:
                     // if(this.GameOverPlayerWon != null) { this.GameOverPlayerWon(this, new PlayerEventArgs(this.currentPlayer)); }
                     this.GameOverPlayerWon?.Invoke(this, new PlayerEventArgs(this.currentPlayer));
                 }
                 else if (this.gameBoard.AreAllFieldsOccupied())
                 {
-                    //If you want to raise an event, that uses the regular EventArgs as an eventtype, 
+                    //If you want to raise an event, that uses the regular EventArgs as an eventtype,
                     //you can use EventArgs.Empty instead of new EventArgs()
                     this.GameOverDraw?.Invoke(this, EventArgs.Empty);
                 }
