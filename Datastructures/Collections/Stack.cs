@@ -1,6 +1,6 @@
-﻿using LunarDoggo.Datastructures.Exceptions;
+﻿using SL.Datastructures.Exceptions;
 
-namespace LunarDoggo.Datastructures.Collections
+namespace SL.Datastructures.Collections
 {
     //A stack is a so called LIFO (last in, first out) data structure that can be imagined as a pile of objects
     //stacked on one and another. If you want to put something on the pile you put it on the top, and if you

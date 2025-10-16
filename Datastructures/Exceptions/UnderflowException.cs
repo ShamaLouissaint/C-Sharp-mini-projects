@@ -1,4 +1,4 @@
-﻿namespace LunarDoggo.Datastructures.Exceptions
+﻿namespace SL.Datastructures.Exceptions
 {
     /// <summary>
     /// An <see cref="Exception"/> signifying that there are no items to be removed in a collection

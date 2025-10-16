@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Datastructures\LunarDoggo.Datastructures.csproj" />
+    <ProjectReference Include="..\Datastructures\SL.Datastructures.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

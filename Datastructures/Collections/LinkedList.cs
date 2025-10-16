@@ -1,4 +1,4 @@
-﻿namespace LunarDoggo.Datastructures.Collections
+﻿namespace SL.Datastructures.Collections
 {
     //A doubly linked list ist a data structure that is composed of single items that have a value and a reference to
     //the previous item and the next item in the list. The list itself only stores a reference to the the current head

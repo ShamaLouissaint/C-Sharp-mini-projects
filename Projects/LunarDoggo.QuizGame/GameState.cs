@@ -2,7 +2,7 @@
 using System.Linq;
 using System;
 
-namespace LunarDoggo.QuizGame
+namespace SL.QuizGame
 {
     /// <summary>
     /// This class is a data container that contains all data regarding the game state
@@ -13,7 +13,7 @@ namespace LunarDoggo.QuizGame
         private readonly Dictionary<QuizQuestion, bool> givenAnswers = new Dictionary<QuizQuestion, bool>();
         private readonly List<QuizQuestion> unansweredQuestions = new List<QuizQuestion>();
         //Random for choosing a random unanswered question from the list
-        //Note: The default constructor of Random in most languages takes the current system time as a seed for this reason, 
+        //Note: The default constructor of Random in most languages takes the current system time as a seed for this reason,
         //Random-instances that are instantiated in loops can sometimes have the same seed and therefore return the same values
         private readonly Random random = new Random();
 
@@ -42,8 +42,8 @@ namespace LunarDoggo.QuizGame
         /// </summary>
         public int CorrectAnswersCount
         {
-            //With the extension methods provided by System.Linq.Enumerable you can write Lambda-Expressions which are like anonymous/nameless methods that operate on a 
-            //given dataset (array, list, database, xml, ...). In this case we use the method "Where" which takes an expression that iterates the QuizQuestion-instances of givenAnswers, does some 
+            //With the extension methods provided by System.Linq.Enumerable you can write Lambda-Expressions which are like anonymous/nameless methods that operate on a
+            //given dataset (array, list, database, xml, ...). In this case we use the method "Where" which takes an expression that iterates the QuizQuestion-instances of givenAnswers, does some
             //Format: ...Where({temporary variable name} => {expression that returns a boolean})
             //learn more about lambda-expressions: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions
             //learn more about System.Linq.Enumerable extension methods:

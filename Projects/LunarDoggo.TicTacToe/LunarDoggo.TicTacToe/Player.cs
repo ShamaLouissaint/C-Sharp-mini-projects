@@ -1,4 +1,4 @@
-﻿namespace LunarDoggo.TicTacToe
+﻿namespace SL.TicTacToe
 {
     /// <summary>
     /// Representation of a player

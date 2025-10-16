@@ -1,4 +1,4 @@
-namespace LunarDoggo.Datastructures.Collections
+namespace SL.Datastructures.Collections
 {
     //An array list ist a list that uses an array for data storage with one twist: array lists are usually implemented to have
     //variable length in contrast to arrays which have a fixed length. To achieve that goal, array lists keep track of the number

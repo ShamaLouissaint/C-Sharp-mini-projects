@@ -1,6 +1,6 @@
-﻿using LunarDoggo.Datastructures.Exceptions;
+﻿using SL.Datastructures.Exceptions;
 
-namespace LunarDoggo.Datastructures.Collections
+namespace SL.Datastructures.Collections
 {
     //A queue is a so called FIFO (first in, first out) data structure that works exactly as the name suggests:
     //items are added to queue and have to wait in line to be served. Items that are enqueued the earliest will
@@ -9,7 +9,7 @@ namespace LunarDoggo.Datastructures.Collections
     //enqueue-call. If "headIndex" and "tailIndex" are the same, the queue is considered empty.
     //The most primitive implementation uses an array that's not resized over the queue's lifetime. If the queue
     //runs full and another object is enqueued, an exception is thrown. Additionally, as the oldest items are
-    //dequeued first, one must keep track of the current head and tail of the queue, as it will no longer be 
+    //dequeued first, one must keep track of the current head and tail of the queue, as it will no longer be
     //guaranteed that the item at index 0 is the next item to be dequeued
     public class Queue<T>
     {

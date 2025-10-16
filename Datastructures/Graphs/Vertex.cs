@@ -1,4 +1,4 @@
-namespace LunarDoggo.Datastructures.Graphs
+namespace SL.Datastructures.Graphs
 {
     //This class is generic to allow for custom values in a vertex without needing to make a custom implementation of this class
     public class Vertex<T>

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System;
 
-namespace LunarDoggo.TicTacToe
+namespace SL.TicTacToe
 {
     /// <summary>
     /// Represents the current state of the game

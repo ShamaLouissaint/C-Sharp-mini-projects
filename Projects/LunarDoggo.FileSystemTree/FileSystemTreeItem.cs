@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LunarDoggo.FileSystemTree
+namespace SL.FileSystemTree
 {
     public class FileSystemTreeItem
     {

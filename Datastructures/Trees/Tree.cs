@@ -1,10 +1,10 @@
-namespace LunarDoggo.Datastructures.Trees
+namespace SL.Datastructures.Trees
 {
     //Trees are a special kind of graph: they're connected, undirected, acyclic and unweighted. In general trees konsist of
     //Individual vertices (thereafter "TreeItems") that may have an arbitrary amount of children
     //The traversal of trees is similar to that of doubly linked lists with the difference that each item may have an arbitrary
     //amount of successors instead of a maximum of one.
-    
+
     //Note: one could also declare a class called Tree<T>, but it would only contain a reference to the root and maybe
     //      some operations that aren't considered standard for trees, so instead one would store a reference to the root
     //      TreeItem of the tree in the code using the tree

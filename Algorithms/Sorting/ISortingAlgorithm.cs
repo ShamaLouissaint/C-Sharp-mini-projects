@@ -1,4 +1,4 @@
-namespace LunarDoggo.Algorithms.Sorting
+namespace SL.Algorithms.Sorting
 {
     //This interface is used to keep the public interface of all sorting algorithms implemented here clean and uniform.
     //The type to be sorted must implement IComparable<T> so that there is a way to tell which value is equal to, greater

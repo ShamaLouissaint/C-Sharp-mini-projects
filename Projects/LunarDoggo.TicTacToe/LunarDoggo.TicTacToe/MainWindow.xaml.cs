@@ -3,7 +3,7 @@ using System.Windows;
 using System.Linq;
 using System;
 
-namespace LunarDoggo.TicTacToe
+namespace SL.TicTacToe
 {
     /// <summary>
     /// Interactionlogic for MainWindow.xaml

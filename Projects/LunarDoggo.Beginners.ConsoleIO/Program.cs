@@ -2,7 +2,7 @@
 //The namespace "System" contains many things you could need, in this example we need "Console" from this namespace
 using System;
 
-namespace LunarDoggo.ConsoleIO
+namespace SL.ConsoleIO
 {
     class Program
     {
@@ -33,17 +33,17 @@ namespace LunarDoggo.ConsoleIO
             /*
              * if-statements allow you to execute a portion of your code only when a condition is met. In combination with "else" or "else if" you
              * can also branch your code into multiple execution-paths
-             * 
+             *
              * an if-statement follows the following format:
              * if(<expression that returns a bool>) { <the code to execute when the condition is met> }
-             * 
+             *
              * an else-if-statement follows a similar format and can be appended after the closing "}" of an if-statements body:
              * else if(<expression that returns a bool>) { <the code to execute when the condition is met> }
-             * 
-             * an else-statement can be appended after an if- or else-if-statement, it doesn't have a condition and is executed, when none of the previous 
+             *
+             * an else-statement can be appended after an if- or else-if-statement, it doesn't have a condition and is executed, when none of the previous
              * statements-conditions are met. It follows the format:
              * else { <the code to execute when no condition was met> }
-             * 
+             *
              * in this case the condition of the if-statement is String.IsNullOrEmpty(name) which checks if the value of name-variable consists of any
              * non-space-character and returns a false if this is the case, true is returned, when no non-space-chcaracters are contained or the strings length is 0
              */

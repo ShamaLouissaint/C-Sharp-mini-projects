@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace LunarDoggo.TicTacToe;
+namespace SL.TicTacToe;
 
 /// <summary>
 /// Interaction logic for App.xaml

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LunarDoggo.QuizGame.Visuals
+namespace SL.QuizGame.Visuals
 {
     public class ConsoleVisualizer : IVisualizer
     {

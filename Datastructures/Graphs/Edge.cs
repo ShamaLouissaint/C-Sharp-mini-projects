@@ -1,4 +1,4 @@
-namespace LunarDoggo.Datastructures.Graphs
+namespace SL.Datastructures.Graphs
 {
     //This class also has to be generic, as Vertex<T> is already generic and this class depends on Vertex<T>
     //Implementing IEquatable<Edge<T>> helps to compare different instances of Edge<T> for equal values
@@ -37,7 +37,7 @@ namespace LunarDoggo.Datastructures.Graphs
         public override bool Equals(object? obj)
         {
             //If the provided object is an edge all edge properties are compared. As there can be multiple vertices containing the same
-            //value, two vertices are considered distinct, even if they contain the same value. As a result the Equals() method of 
+            //value, two vertices are considered distinct, even if they contain the same value. As a result the Equals() method of
             //Vertex<T> isn't overriden with a custom implementation
             return obj is Edge<T> edge && edge.From == this.From && edge.To == this.To && edge.IsBidirectional == this.IsBidirectional;
         }

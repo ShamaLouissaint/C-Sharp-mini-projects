@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.TicTacToe", "LunarDoggo.TicTacToe.csproj", "{466544C2-9DF1-0A6E-1A5C-546D73CB9864}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL.TicTacToe", "SL.TicTacToe.csproj", "{466544C2-9DF1-0A6E-1A5C-546D73CB9864}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

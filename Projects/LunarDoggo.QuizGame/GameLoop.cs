@@ -1,8 +1,8 @@
-﻿using LunarDoggo.QuizGame.Visuals;
+﻿using SL.QuizGame.Visuals;
 using System.Collections.Generic;
 using System;
 
-namespace LunarDoggo.QuizGame
+namespace SL.QuizGame
 {
     /// <summary>
     /// This class contains the logic to run the game

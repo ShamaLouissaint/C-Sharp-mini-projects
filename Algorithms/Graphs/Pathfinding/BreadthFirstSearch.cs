@@ -1,10 +1,10 @@
-using LunarDoggo.Datastructures.Graphs;
+using SL.Datastructures.Graphs;
 
-namespace LunarDoggo.Algorithms.Graphs.Pathfinding
+namespace SL.Algorithms.Graphs.Pathfinding
 {
     //BFS is a basic pathfinding algorithm that works on unweighted graphs. It doesn't matter if the graph is directed
     //or undirected. The time complexity of BFS is O(|V| + |E|), as the algorithm processes every vertex and iterates over every edge in the graph exactly once
-    //In simple graphs |E| is bounded by O(|V|^2), so in such cases, one could use O(|V|^2) as the time complexity 
+    //In simple graphs |E| is bounded by O(|V|^2), so in such cases, one could use O(|V|^2) as the time complexity
     public class BreadthFirstSearch
     {
         public void Run(IGraph<BFSVertex> graph, Vertex<BFSVertex> start)

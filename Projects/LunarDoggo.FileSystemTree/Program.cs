@@ -4,7 +4,7 @@ using System.Linq;
 using System.IO;
 using System;
 
-namespace LunarDoggo.FileSystemTree
+namespace SL.FileSystemTree
 {
     class Program
     {
@@ -51,7 +51,7 @@ namespace LunarDoggo.FileSystemTree
             //First recursively add all subdirectories with its children to the current tree item
             foreach (DirectoryInfo subdirectory in subdirectories)
             {
-                //add all tree items from 
+                //add all tree items from
                 children.Add(Program.GetFileSystemTree(subdirectory));
             }
 

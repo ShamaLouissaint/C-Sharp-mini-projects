@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System;
 
-namespace LunarDoggo.ConsoleIOValidation
+namespace SL.ConsoleIOValidation
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace LunarDoggo.ConsoleIOValidation
 
         private static void Main(string[] args)
         {
-            //Similarily to variables, you can also call your methods by their names. Program just provides 
+            //Similarily to variables, you can also call your methods by their names. Program just provides
             //further information for you, where to find the method
             Program.AddGames();
 
@@ -38,13 +38,13 @@ namespace LunarDoggo.ConsoleIOValidation
         /*
          * you can add your custom static methods by using the format:
          * [visibility-modifier] static <return-type> <name>([parameters])
-         * this method is defined as private and therefore can only be accessed inside of the class Program, empty 
+         * this method is defined as private and therefore can only be accessed inside of the class Program, empty
          * parenthesis mean, that the method doesn't take any parameters
          */
         private static void AddGames()
         {
             /*
-             * static variables, that are declared outside of any method can be accessed by writing their name. It is advisable 
+             * static variables, that are declared outside of any method can be accessed by writing their name. It is advisable
              * that you write the class-name before the variable-name in order to give you more information about its context.
              * here we just add some entries to the games-dictionary
              */
@@ -60,7 +60,7 @@ namespace LunarDoggo.ConsoleIOValidation
             /*
              * a for-loop executes the code inside of its body as many times as the loop-condition is met and can be defined with the following format:
              * for(<counter-variable initialization and declaration>; <loop-condition>; <decrement/increment>) { <code to be executed by the loop> }
-             * 
+             *
              * In this case we declare a new integer-variable with the name "i" and assign the value "0" to it. For the condition we check if the
              * coutner-variable is less than the current count of games in our previously defined list of games. If the condition is not met,
              * the counter-variable is incremented by one (i++) otherwise the loop is exited
@@ -82,7 +82,7 @@ namespace LunarDoggo.ConsoleIOValidation
             //a do-while-loop first enters its body, executes the contained code and afterwards checks the condition
             do
             {
-                //Note that in C# collections (array, list, dictionary, ...) start at the index 0, therefore the last index 
+                //Note that in C# collections (array, list, dictionary, ...) start at the index 0, therefore the last index
                 //is the length of the collection minus one
                 Console.Write("Please select a game by it's index-number (between 0 and " + (Program.games.Count - 1) + "): ");
                 choice = Console.ReadLine();

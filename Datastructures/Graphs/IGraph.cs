@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LunarDoggo.Datastructures.Graphs
+namespace SL.Datastructures.Graphs
 {
     public interface IGraph<T>
     {

@@ -1,4 +1,4 @@
-namespace LunarDoggo.Datastructures.Graphs
+namespace SL.Datastructures.Graphs
 {
     public class UndirectedUnweightedGraph<T> : IUnweightedGraph<T>
     {

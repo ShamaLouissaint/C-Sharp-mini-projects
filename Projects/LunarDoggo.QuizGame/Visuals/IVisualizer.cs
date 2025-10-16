@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LunarDoggo.QuizGame.Visuals
+namespace SL.QuizGame.Visuals
 {
     /*
      * Interfaces in C# are like blueprints for classes, every class that "implements" this interface must also define all
@@ -9,7 +9,7 @@ namespace LunarDoggo.QuizGame.Visuals
      * the instance of a concrete class in the source code without having to rewrite the application.
      * In the real world interfaces are for example used, when you have multiple datasources like databases, files, ...
      * or rendering-libraries like DirectX, OpenGL, Vulcan, ... which can be swapped in and out at runtime
-     * 
+     *
      * In this case, all classes that implement IQuizQuestionSerializer must declare the following public methods as voids:
      * DrawAnswerStatus(bool correct, QuizQuestionAnswer correctAnswer)
      * DrawQuizQuestion(QuizQuestion question, Guid highlitedAnswerId)

@@ -1,6 +1,6 @@
-using LunarDoggo.Datastructures.Graphs;
+using SL.Datastructures.Graphs;
 
-namespace LunarDoggo.Algorithms.Graphs.Pathfinding
+namespace SL.Algorithms.Graphs.Pathfinding
 {
     //DFS is a basic pathfinding algorithm that works on unweighted graphs. It doesn't matter if the graph is directed
     //or undirected, but a DFS run on a directed graph will yield a s-rooted spanning tree that isn't necessarily minimal

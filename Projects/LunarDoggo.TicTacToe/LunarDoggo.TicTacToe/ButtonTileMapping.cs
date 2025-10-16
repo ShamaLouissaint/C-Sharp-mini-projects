@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace LunarDoggo.TicTacToe
+namespace SL.TicTacToe
 {
     /// <summary>
     /// Represents a mapping between a <see cref="System.Windows.Controls.Button"/> and a tile with the specified coordinates

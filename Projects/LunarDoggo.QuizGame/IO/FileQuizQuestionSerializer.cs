@@ -4,7 +4,7 @@ using System.IO;
 using System;
 using System.Text.Json.Serialization;
 
-namespace LunarDoggo.QuizGame.IO
+namespace SL.QuizGame.IO
 {
     /*
      * In this case, FileQuizQuestionSerializer implements the interface IQuizQuestionSerializer so that other
@@ -55,7 +55,7 @@ namespace LunarDoggo.QuizGame.IO
                 AllowTrailingCommas = true //if the json content contains a lonely ",", it will be ignored
             };
 
-            //System.Text.Json.JsonSerializer deserializes the content string into a QuizQuestion array 
+            //System.Text.Json.JsonSerializer deserializes the content string into a QuizQuestion array
             return JsonSerializer.Deserialize<QuizQuestion[]>(content, options);
         }
 

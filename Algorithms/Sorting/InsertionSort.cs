@@ -1,4 +1,4 @@
-namespace LunarDoggo.Algorithms.Sorting
+namespace SL.Algorithms.Sorting
 {
     public class InsertionSort<T> : ISortingAlgorithm<T> where T : IComparable<T>
     {

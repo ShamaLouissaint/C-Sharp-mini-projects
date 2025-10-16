@@ -1,10 +1,10 @@
-﻿using LunarDoggo.QuizGame.Visuals;
+﻿using SL.QuizGame.Visuals;
 using System.Collections.Generic;
-using LunarDoggo.QuizGame.IO;
+using SL.QuizGame.IO;
 using System.Linq;
 using System;
 
-namespace LunarDoggo.QuizGame
+namespace SL.QuizGame
 {
     public class Program
     {
